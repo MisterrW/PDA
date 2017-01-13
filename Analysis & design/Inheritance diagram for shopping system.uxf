@@ -4,9 +4,9 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>252</x>
+      <x>207</x>
       <y>189</y>
-      <w>369</w>
+      <w>450</w>
       <h>162</h>
     </coordinates>
     <panel_attributes>Buyable (Abstract superclass)
@@ -15,7 +15,7 @@
 -price: double
 -bogof: boolean
 --
-+Buyable(String name, double price, boolean bogof): ctor
++Buyable(String name, double price, boolean bogof): constructor
 +getName(): String
 +getPrice(): double
 +checkBogof(): boolean
@@ -26,15 +26,15 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
+      <x>36</x>
       <y>432</y>
-      <w>378</w>
+      <w>396</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>Drink (extends Buyable)
 --
 --
-+Drink(String name, double price, boolean bogof): ctor
++Drink(String name, double price, boolean bogof): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -44,13 +44,13 @@
     <coordinates>
       <x>441</x>
       <y>432</y>
-      <w>378</w>
+      <w>423</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>Sandwich (extends Buyable)
 --
 --
-+Sandwich(String name, double price, boolean bogof): ctor
++Sandwich(String name, double price, boolean bogof): constructor
 --
 </panel_attributes>
     <additional_attributes/>

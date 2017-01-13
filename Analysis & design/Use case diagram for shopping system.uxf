@@ -169,13 +169,13 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
+      <x>536</x>
       <y>136</y>
-      <w>160</w>
+      <w>152</w>
       <h>176</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;180.0;200.0</additional_attributes>
+    <additional_attributes>10.0;10.0;170.0;200.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

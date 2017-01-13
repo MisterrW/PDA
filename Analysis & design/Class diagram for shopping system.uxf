@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>376</y>
-      <w>336</w>
-      <h>224</h>
+      <x>414</x>
+      <y>396</y>
+      <w>378</w>
+      <h>252</h>
     </coordinates>
     <panel_attributes>Checkout
 --
@@ -16,7 +16,7 @@
 -basket: Basket
 -shopper: Shopper
 --
-+Checkout(Basket basket, Shopper shopper): ctor
++Checkout(Basket basket, Shopper shopper): constructor
 +getFinalTotal(): double
 +applyLoyaltyCardDiscount(): double
 +applyTenPercentDiscount(): double
@@ -32,10 +32,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>272</x>
-      <y>64</y>
-      <w>144</w>
-      <h>184</h>
+      <x>225</x>
+      <y>45</y>
+      <w>162</w>
+      <h>207</h>
     </coordinates>
     <panel_attributes>Runner
 --
@@ -44,7 +44,7 @@
 -checkout: Checkout
 -stock: Stock
 --
-+Runner(): ctor
++Runner(): constructor
 +run(): void
 +getLoyalty(): boolean
 +getName(): String
@@ -57,10 +57,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>440</x>
-      <y>64</y>
-      <w>328</w>
-      <h>144</h>
+      <x>414</x>
+      <y>45</y>
+      <w>423</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>Buyable (Abstract superclass)
 --
@@ -68,7 +68,7 @@
 -price: double
 -bogof: boolean
 --
-+Buyable(String name, double price, boolean bogof): ctor
++Buyable(String name, double price, boolean bogof): constructor
 +getName(): String
 +getPrice(): double
 +checkBogof(): boolean
@@ -79,16 +79,16 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>472</y>
-      <w>240</w>
-      <h>128</h>
+      <x>36</x>
+      <y>504</y>
+      <w>297</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Basket
 --
 -items: ArrayList&lt;Buyable&gt;
 --
-+Basket(): ctor
++Basket(): constructor
 +empty(): void
 +addItem(Buyable item): void
 +removeItem(Buyable toRemove): Buyable
@@ -100,17 +100,17 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>264</y>
-      <w>280</w>
-      <h>96</h>
+      <x>36</x>
+      <y>270</y>
+      <w>360</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>Shopper
 --
 -loyaltyCard: boolean
 -name: String
 --
-+Shopper(String name, boolean loyaltyCard): ctor
++Shopper(String name, boolean loyaltyCard): constructor
 +hasLoyaltyCard(): boolean
 --
 </panel_attributes>
@@ -119,16 +119,16 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>104</x>
-      <y>368</y>
-      <w>224</w>
-      <h>88</h>
+      <x>36</x>
+      <y>387</y>
+      <w>297</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Stock
 --
 -items: ArrayList&lt;Buyable&gt;
 --
-+Stock(ArrayList&lt;Buyable&gt; stock): ctor
++Stock(ArrayList&lt;Buyable&gt; stock): constructor
 +getItems(): ArrayList&lt;Buyable&gt;
 --
 </panel_attributes>
@@ -137,15 +137,15 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>464</x>
+      <x>441</x>
       <y>216</y>
-      <w>336</w>
-      <h>56</h>
+      <w>405</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Drink (extends Buyable)
 --
 --
-+Drink(String name, double price, boolean bogof): ctor
++Drink(String name, double price, boolean bogof): constructor
 --
 </panel_attributes>
     <additional_attributes/>
@@ -153,10 +153,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>112</x>
-      <y>64</y>
-      <w>144</w>
-      <h>56</h>
+      <x>45</x>
+      <y>45</y>
+      <w>171</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Launch
 --
@@ -169,15 +169,15 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>464</x>
-      <y>280</y>
-      <w>336</w>
-      <h>56</h>
+      <x>441</x>
+      <y>288</y>
+      <w>405</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Sandwich (extends Buyable)
 --
 --
-+Sandwich(String name, double price, boolean bogof): ctor
++Sandwich(String name, double price, boolean bogof): constructor
 --
 </panel_attributes>
     <additional_attributes/>
