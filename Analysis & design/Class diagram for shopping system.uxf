@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>8</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>10</y>
-      <w>420</w>
-      <h>280</h>
+      <x>440</x>
+      <y>376</y>
+      <w>336</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>Checkout
 --
@@ -32,10 +32,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
-      <y>440</y>
-      <w>180</w>
-      <h>230</h>
+      <x>272</x>
+      <y>64</y>
+      <w>144</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>Runner
 --
@@ -57,10 +57,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>30</y>
-      <w>410</w>
-      <h>180</h>
+      <x>440</x>
+      <y>64</y>
+      <w>328</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Buyable (Abstract superclass)
 --
@@ -79,10 +79,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>300</y>
-      <w>300</w>
-      <h>160</h>
+      <x>104</x>
+      <y>472</y>
+      <w>240</w>
+      <h>128</h>
     </coordinates>
     <panel_attributes>Basket
 --
@@ -100,10 +100,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>300</y>
-      <w>350</w>
-      <h>120</h>
+      <x>104</x>
+      <y>264</y>
+      <w>280</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>Shopper
 --
@@ -119,10 +119,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>300</y>
-      <w>280</w>
-      <h>110</h>
+      <x>104</x>
+      <y>368</y>
+      <w>224</w>
+      <h>88</h>
     </coordinates>
     <panel_attributes>Stock
 --
@@ -137,10 +137,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>470</y>
-      <w>390</w>
-      <h>70</h>
+      <x>464</x>
+      <y>216</y>
+      <w>336</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Drink (extends Buyable)
 --
@@ -153,12 +153,12 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>440</y>
-      <w>180</w>
-      <h>70</h>
+      <x>112</x>
+      <y>64</y>
+      <w>144</w>
+      <h>56</h>
     </coordinates>
-    <panel_attributes>shoppingbasket::Launch
+    <panel_attributes>Launch
 --
 --
 +main(String[] args): void
@@ -169,10 +169,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>550</y>
-      <w>420</w>
-      <h>70</h>
+      <x>464</x>
+      <y>280</y>
+      <w>336</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>Sandwich (extends Buyable)
 --
