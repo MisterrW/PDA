@@ -1,7 +1,7 @@
 class Pda
 
 	def initialize
-	@example_array = [2, 5, 4, 7]
+	@example_array = [7, 5, 4, 2, 1]
 	
 	@example_hash = {
 		"Ruby" => "Ruby is good for web frameworks",
