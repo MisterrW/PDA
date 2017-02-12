@@ -1,3 +1,5 @@
+package guitars;
+
 public interface Amplifiable {
-  private int volume;
+  private int getVolume;
 }

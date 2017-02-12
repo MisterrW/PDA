@@ -4,16 +4,19 @@ public abstract class Guitar{
   private int strings;
   private String body_material;
   private String neck_material;
-  private int volume;
+  private double volume;
 
-  public guitar(int strings, String body_material, String neck_material, int volume){
+  public Guitar(int strings, String body_material, String neck_material, double volume){
     this.strings = strings;
     this.volume = volume;
     this.body_material = body_material;
     this.neck_material = neck_material;
   }
 
-  public int getVolume(){
+  public double getVolume(){
     return this.volume;
+  }
+  public String identifySelfType(){
+    return "I am a guitar";
   }
 }
