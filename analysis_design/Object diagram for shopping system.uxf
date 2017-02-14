@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>649</x>
-      <y>484</y>
+      <x>484</x>
+      <y>451</y>
       <w>462</w>
       <h>308</h>
     </coordinates>
@@ -30,8 +30,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>561</y>
+      <x>99</x>
+      <y>528</y>
       <w>363</w>
       <h>176</h>
     </coordinates>
@@ -48,8 +48,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>286</y>
+      <x>99</x>
+      <y>253</y>
       <w>363</w>
       <h>132</h>
     </coordinates>
@@ -62,8 +62,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>429</y>
+      <x>99</x>
+      <y>396</y>
       <w>363</w>
       <h>121</h>
     </coordinates>
@@ -77,8 +77,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>649</x>
-      <y>286</y>
+      <x>484</x>
+      <y>253</y>
       <w>462</w>
       <h>88</h>
     </coordinates>
@@ -92,8 +92,8 @@ bogof: true</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>649</x>
-      <y>385</y>
+      <x>484</x>
+      <y>352</y>
       <w>462</w>
       <h>88</h>
     </coordinates>
@@ -107,8 +107,8 @@ bogof: true</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>264</x>
-      <y>220</y>
+      <x>99</x>
+      <y>187</y>
       <w>297</w>
       <h>44</h>
     </coordinates>
