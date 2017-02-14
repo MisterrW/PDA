@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>649</x>
+      <y>484</y>
+      <w>462</w>
+      <h>308</h>
+    </coordinates>
+    <panel_attributes>Checkout
+--
+-bogofItems: ArrayList&lt;Buyable&gt;
+-bogofDiscount: double
+-basket: wills_basket
+-shopper: will
+--
++getFinalTotal(): double
++applyLoyaltyCardDiscount(): double
++applyTenPercentDiscount(): double
++applyBogofDiscount(): double
++getTotal(): double
++createBogofArray(ArrayList&lt;Buyable&gt; items): void
++calcBogofDiscount(ArrayList&lt;Buyable&gt; bogofItems): void
++getBogofDiscount(): double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>561</y>
+      <w>363</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>wills_basket (basket)
+--
+-items: [Cola, BLT sandwich]
+--
++empty(): void
++addItem(Buyable item): void
++removeItem(Buyable toRemove): Buyable
++getItems(): ArrayList&lt;Buyable&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>286</y>
+      <w>363</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>will (shopper)
+--
+-loyaltyCard: true
+-name: William</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>429</y>
+      <w>363</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>Stock
+--
+-items: [Cola, BLT sandwich]
+--
++getItems(): ArrayList&lt;Buyable&gt;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>649</x>
+      <y>286</y>
+      <w>462</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>cola (drink)
+--
+name: Cola
+price: 2.99
+bogof: true</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>649</x>
+      <y>385</y>
+      <w>462</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>BLT (sandwich)
+-
+name: Cola
+price: 2.99
+bogof: true</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>264</x>
+      <y>220</y>
+      <w>297</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Object diagram for shopping system</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
