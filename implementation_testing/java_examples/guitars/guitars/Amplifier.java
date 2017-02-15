@@ -10,7 +10,7 @@ public class Amplifier{
     this.amplificationFactor = amplificationFactor;
     this.type = type;
   }
-
+  
   public void play(){
     double totalVolume = (this.amplificationFactor * this.instrument.getVolume());
     System.out.println(this.instrument.identifySelfType());
