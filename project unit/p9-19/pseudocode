@@ -1,0 +1,21 @@
+This is an example of pseudocode related to my sudoku project.
+It describes a way to check if a possible value in a square does not exist in any of the other 8 squares in a given unit (in sudoku, this means that the unique possibility can be set as the square's value).
+
+
+Function: check if a possible value is unique (unit):
+  for every square in the unit,
+    for every possible value in that square,
+      if that value has not yet been excluded,
+        temporarily assume that this value is unique.
+
+        for every other square in the unit under evaluation,
+          provided it isn't the square I'm checking against,
+            for every possible value in that unit,
+              if that value has not yet been excluded,
+                if that value is the same as the same as the value in the first square I am checking against,
+                  then that value is not unique after all.
+
+        if the previous block did not disprove that the possible value is unique,
+          set the square under evaluation's value to the unique possibility.
+
+end function.
