@@ -8,6 +8,7 @@ var Calculator = function(){
 Calculator.prototype = {
 
   add: function(number){
+    console.log('adding')
     this.runningTotal = parseFloat(this.previousTotal) + parseFloat(number);
   },
 
