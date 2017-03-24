@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>11</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>484</x>
-      <y>451</y>
-      <w>462</w>
-      <h>308</h>
+      <x>270</x>
+      <y>270</y>
+      <w>378</w>
+      <h>252</h>
     </coordinates>
     <panel_attributes>Checkout
 --
@@ -30,10 +30,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
-      <y>528</y>
-      <w>363</w>
-      <h>176</h>
+      <x>468</x>
+      <y>576</y>
+      <w>297</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>wills_basket (basket)
 --
@@ -48,10 +48,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
-      <y>253</y>
-      <w>363</w>
-      <h>132</h>
+      <x>135</x>
+      <y>576</y>
+      <w>297</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>will (shopper)
 --
@@ -62,10 +62,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
-      <y>396</y>
-      <w>363</w>
-      <h>121</h>
+      <x>972</x>
+      <y>387</y>
+      <w>297</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>Stock
 --
@@ -77,10 +77,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>484</x>
-      <y>253</y>
-      <w>462</w>
-      <h>88</h>
+      <x>846</x>
+      <y>648</y>
+      <w>378</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>cola (drink)
 --
@@ -92,14 +92,14 @@ bogof: true</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>484</x>
-      <y>352</y>
-      <w>462</w>
-      <h>88</h>
+      <x>963</x>
+      <y>558</y>
+      <w>378</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>BLT (sandwich)
 -
-name: Cola
+name: BLT
 price: 2.99
 bogof: true</panel_attributes>
     <additional_attributes/>
@@ -107,12 +107,69 @@ bogof: true</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
-      <y>187</y>
-      <w>297</w>
-      <h>44</h>
+      <x>270</x>
+      <y>198</y>
+      <w>243</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>Object diagram for shopping system</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>882</x>
+      <y>477</y>
+      <w>153</w>
+      <h>189</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1134</x>
+      <y>477</y>
+      <w>81</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>513</y>
+      <w>72</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>513</y>
+      <w>54</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>756</x>
+      <y>387</y>
+      <w>234</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+&lt; Add item to basket</panel_attributes>
+    <additional_attributes>10.0;230.0;240.0;10.0</additional_attributes>
   </element>
 </diagram>
